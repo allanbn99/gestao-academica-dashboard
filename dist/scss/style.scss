@@ -1,0 +1,18 @@
+$theme-colors: (
+    "primary": #0275d8,
+    "success": #5cb85c,
+    "info": #5bc0de,
+    "warning": #f0ad4e,
+    "danger": #d9534f,
+    "dark": #292b2c,
+    "light": #f7f7f7,
+);
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;400;700;900&display=swap');
+@import "../../node_modules/bootstrap/scss/bootstrap";
+@import "../scss/variables";
+@import "../scss/sidebar";
+
+body {
+    font-family: 'Montserrat', sans-serif;
+}
